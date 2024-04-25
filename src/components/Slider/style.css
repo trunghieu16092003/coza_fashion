@@ -1,0 +1,50 @@
+.title {
+  font-family: "Playfair Display", serif;
+}
+
+@keyframes subTitle {
+  0% {
+    opacity: 0;
+    transform: translateY(0px) rotate(-90deg);
+    transform-origin: left bottom; /* Đặt trục tọa độ ở chữ "M" */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+    transform-origin: left bottom; /* Đảm bảo trục tọa độ giữ nguyên */
+  }
+}
+
+.animate-sub-title {
+  animation: subTitle 1s ease-out forwards;
+}
+
+@keyframes title {
+  0% {
+    opacity: 0;
+    transform: translateY(0px) rotate(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+.animate-title {
+  animation: title 1s ease-out forwards;
+}
+
+@keyframes btn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.animate-btn {
+  animation: btn 1s ease-out forwards;
+}

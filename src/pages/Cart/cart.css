@@ -1,0 +1,11 @@
+.cart {
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ant-table-wrapper {
+  width: 1000px;
+}
